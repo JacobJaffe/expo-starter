@@ -26,7 +26,7 @@ export default function ExampleTabScreen({ route: { name } }) {
         source={image}
         accessibilityLabel="Banksy the dog" // This is a fallback of having the dynamic images! Less curated accessibility
       />
-      <Text style={styles.text}>{text}</Text>
+      <Text style={styles.text}>text</Text>
     </View>
   );
 }
